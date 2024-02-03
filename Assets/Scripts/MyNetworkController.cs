@@ -25,7 +25,9 @@ public class MyNetworkController : MonoBehaviour
     public void StartAsClient()
     {
         NetworkManager.Singleton.StartClient();
-    }public void StartAsServer()
+    }
+    
+    public void StartAsServer()
     {
         NetworkManager.Singleton.StartServer();
     }
